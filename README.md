@@ -1,0 +1,2 @@
+# vpn-install
+install shadowsocks
