@@ -9,6 +9,7 @@ vim /etc/shadowsocks-python/config.json
 2. 客户端下载安装    
 3. 网络加速  
 利用 TCP BBR 拥塞控制算法，实现服务器访问网速的提升。  
+wget --no-check-certificate -O bbr.sh https://github.com/ChangRaySH/vpn-install/blob/main/bbr.sh  
 chmod +x bbr.sh  
 ./bbr.sh  
 sysctl net.ipv4.tcp_available_congestion_controlet.ipv4.tcp_available_congestion_control =reno cubic bbr  
