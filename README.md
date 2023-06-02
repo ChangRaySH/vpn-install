@@ -12,7 +12,6 @@ vim /etc/shadowsocks-python/config.json
 wget --no-check-certificate -O bbr.sh https://github.com/ChangRaySH/vpn-install/blob/main/bbr.sh  
 chmod +x bbr.sh  
 ./bbr.sh  
-sysctl net.ipv4.tcp_available_congestion_controlet.ipv4.tcp_available_congestion_control =reno cubic bbr  
 4. 多用户配置  
 vi /etc/shadowsocks.json  
 {  
