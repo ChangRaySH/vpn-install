@@ -1,6 +1,6 @@
 # vpn-install
 1. shadowsocks server下载安装  
-install shadowsocks  
+wget --no-check-certificate -O shadowsocks-all.sh https://github.com/ChangRaySH/vpn-install/blob/main/shadowsocks-all.sh  
 chmod +x shadowsocks-all.sh  
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.l  
 /etc/init.d/shadowsocks-python start | stop | restart | status   
